@@ -7,7 +7,7 @@ app.use(express.static('public'));
 app.use(express.urlencoded({
     extended: false
 }));
-app.use(express.static('public'));
+
 const path = require('path');
 
 app.get('/',(req,res)=>{
